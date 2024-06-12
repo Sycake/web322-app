@@ -7,7 +7,7 @@ Name: Ke Ke
 Student ID: 153229224
 Date: 2024.06.11
 Vercel Web App URL: 
-GitHub Repository URL: 
+GitHub Repository URL: https://github.com/Sycake/web322-app.git
 
 ********************************************************************************/ 
 
