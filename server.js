@@ -28,7 +28,14 @@ app.get('/', (req, res) => {
 
 // Serve the About page
 app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'about.html'));
+    const filePath = path.join(__dirname, 'views', 'about.html');
+    console.log(`Attempting to serve: ${filePath}`);
+    res.sendFile(filePath, err => {
+        if (err) {
+            console.log(`Error serving ${filePath}: `, err.message);
+            res.status(500).send("Error serving the file.");
+        }
+    });
 });
 
 // Shop route returns all published items as JSON
