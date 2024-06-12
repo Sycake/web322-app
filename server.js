@@ -6,7 +6,7 @@ No part of this assignment has been copied manually or electronically from any o
 Name: Ke Ke
 Student ID: 153229224
 Date: 2024.06.11
-Vercel Web App URL: 
+Vercel Web App URL: https://web322-nfbom4v6i-syca-kes-projects.vercel.app
 GitHub Repository URL: https://github.com/Sycake/web322-app.git
 
 ********************************************************************************/ 
